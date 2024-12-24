@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RestaurantService", "RestaurantService", "{BB9AAE26-D88A-41D5-8FBD-DA8731FCEA79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrderService", "OrderService", "{EB04EDAC-5D46-4319-B4A3-6FDD20107B3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantService.API", "RestaurantService.API\RestaurantService.API.csproj", "{4B3EA44C-4BA0-44D1-9EE0-1F2CA90A38A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2AD14EEF-545E-445E-BDDB-A395555E4195}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4B3EA44C-4BA0-44D1-9EE0-1F2CA90A38A2} = {BB9AAE26-D88A-41D5-8FBD-DA8731FCEA79}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B3EA44C-4BA0-44D1-9EE0-1F2CA90A38A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B3EA44C-4BA0-44D1-9EE0-1F2CA90A38A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B3EA44C-4BA0-44D1-9EE0-1F2CA90A38A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B3EA44C-4BA0-44D1-9EE0-1F2CA90A38A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

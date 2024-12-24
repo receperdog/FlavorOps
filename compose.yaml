@@ -1,0 +1,6 @@
+﻿services:
+  restaurantservice.api:
+    image: restaurantservice.api
+    build:
+      context: .
+      dockerfile: RestaurantService.API/Dockerfile
